@@ -1,0 +1,19 @@
+{
+  "name": "web3-importer",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vasco Santos",
+  "license": "(Apache-2.0 AND MIT)",
+  "dependencies": {
+    "@web-std/fetch": "^2.1.2",
+    "async-csv": "^2.1.3",
+    "dotenv": "^10.0.0",
+    "p-retry": "^4.6.1",
+    "web3.storage": "^3.3.4"
+  }
+}
